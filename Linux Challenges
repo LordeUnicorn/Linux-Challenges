@@ -1,0 +1,59 @@
+Task 1
+cd Desktop
+mkdir myProject
+cat > app.js
+cd ~/Desktop
+mkdir myProject2
+cd ~/Desktop
+cd myProject
+cp app.js ~/Desktop/myProject2
+
+Task 2
+touch exercise.txt
+mv exercise.txt /tmp
+rm exercise.txt ~/tmp
+
+Task 3
+cat > umuzi.txt
+Random file with Umuzi data.
+cat > recruits.txt
+Information about recruits
+cat > cohorts.txt
+Info about cohorts
+cat umuzi.txt recruits.txt cohorts.txt
+cat umuzi.txt >> summary.txt
+cat recruits.txt >> summary.txt
+cat cohorts.txt >> summary.txt
+cat >> summary.txt
+
+Task 4
+locate umuzi
+locate umuzi > search_result.txt
+
+Task 5
+mkdir mydocument
+cat > pad.txt
+cd ~/Desktop
+mkdir work
+cp pad.txt pad_copy.txt
+locate updatedb
+cd work
+locate mydocument -name pad_copy.txt
+
+Task 6
+find ~ -name *.pdf
+find . -type f -name "*.pdf" -exec cp -n {} /tmp \;
+find . -mtime -1 -print
+
+
+Task 10
+nano
+my_bio.txt
+Ctrl X
+Yes
+file name = my_bio.txt
+cd ~
+mkdir my_files
+mv my_bio.txt my_files
+cd my_files
+
